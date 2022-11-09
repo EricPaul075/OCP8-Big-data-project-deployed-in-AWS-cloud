@@ -14,6 +14,6 @@ L'extraction des features des images s'effectue avec le modèle CNN EfficientNet
 La réduction de dimension des features s'effectue avec un PCA après mise à l'échelle.
 
 Points d'attentions dans le passage à l'échelle:
-- Acquisition des images d'entrée par batch < 1000 images (limitation de boto3) ;
+- Acquisition des images d'entrée par batch de 1000 images maximum (limitation de boto3) ;
 - Taille mémoire du driver à surveiller avec l'accroissement du nombre d'image (maximiser la mémoire disponible pour le driver) ;
 - Diminution de la variance expliquée à surveiller avec l'accroissement du nombre d'image.
