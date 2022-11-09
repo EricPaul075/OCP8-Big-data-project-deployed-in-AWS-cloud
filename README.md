@@ -1,5 +1,5 @@
 # OCP8-Big-data-project-deployed-in-AWS-cloud
-Projet 8 d'Openclassrooms / CentraleSupélec
+Define a big data architecture and deploy in the cloud a distributed application on an EMR cluster using AWS
 
 Le projet consiste à mettre en œuvre une architecture et une application big data dans le but de construire un moteur de classification d'images de fruits.
 Les données d'entrée sont des images de différents fruits pris sous différents angles.
